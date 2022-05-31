@@ -29,7 +29,7 @@ public class BooksDbToBeHandled implements BooksDbInterface{
     @Override
     public boolean connect(String userName, String psw)  throws BooksDbException{
         try {
-            connection = DriverManager.getConnection(jdbc, "root", "0991847262aA");
+            connection = DriverManager.getConnection(jdbc, "root", "password");
             return true;
 
         } catch (SQLException e) {
